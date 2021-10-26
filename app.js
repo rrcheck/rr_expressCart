@@ -25,7 +25,7 @@ const { writeGoogleData } = require('./lib/googledata');
 let handlebars = require('express-handlebars');
 const i18n = require('i18n');
 
-// Validate our settings schema
+// Validate our settings schema please Ray
 const Ajv = require('ajv');
 const ajv = new Ajv({ useDefaults: true });
 
