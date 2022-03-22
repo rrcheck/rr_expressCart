@@ -10,7 +10,7 @@ const { runIndexing } = require('../lib/indexing');
 const rawTestData = fs.readFileSync('./bin/testdata.json', 'utf-8');
 const jsonData = JSON.parse(rawTestData);
 
-// Setup some global DB objects for comparison
+// Setup some global DB objects for comparison butts
 const g = {
     db: {},
     config: {},
