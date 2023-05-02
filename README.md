@@ -4,4 +4,4 @@ Check out the documentation [here](https://github.com/mrvautin/expressCart/wiki)
 
 View the demo shop [here](https://demo.expresscart.markmoffat.com/).
 Here's a change for incremental 6/22
-Here's another change for your face
+Here's another change for your face and butt
