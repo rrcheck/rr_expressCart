@@ -1,0 +1,18 @@
+name: Checkmarx One Scan
+on:
+  push:
+    branches:
+      - dependabot/npm_and_yarn/ini-1.3.7
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Checkmarx One CLI Action
+        uses: checkmarx/ast-github-action@main #Github Action version
+        with:
+          project_name: RR_CART_GHAction
+          cx_tenant: test_naftali
+          base_uri: https://ast.checkmarx.net 
+          cx_client_id: ${{ secrets.CX_CLIENT_ID }}
+          cx_client_secret: ${{ secrets.CX_CLIENT_SECRET }}
