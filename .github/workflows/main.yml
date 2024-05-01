@@ -15,5 +15,5 @@ jobs:
           project_name: RR_CART_GHAction
           cx_tenant: prod_na_testing
           base_uri: https://ast.checkmarx.net 
-          cx_client_id: ast-plugins
-          cx_client_secret: c8493bb1-221a-4486-b196-9045b1fd3ee2
+          cx_client_id: ${{ secrets.CX_CLIENT_ID }}
+          cx_client_secret: ${{ secrets.CX_CLIENT_SECRET }}
