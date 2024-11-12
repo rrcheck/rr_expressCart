@@ -13,7 +13,7 @@ jobs:
         uses: checkmarx/ast-github-action@main #Github Action version
         with:
           project_name: RR_CART_GHAction
-          cx_tenant: dp_wp_account
+          cx_tenant: test_naftali
           base_uri: https://eu.ast.checkmarx.net 
           cx_client_id: ${{ secrets.CX_CLIENT_ID }}
           cx_client_secret: ${{ secrets.CX_CLIENT_SECRET }}
